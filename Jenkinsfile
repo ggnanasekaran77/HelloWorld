@@ -6,6 +6,7 @@ pipeline {
             steps {
                 timestamps {
                     echo 'Building..'
+                    sh 'find ./'
                  }
             }
         }
